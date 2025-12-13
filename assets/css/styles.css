@@ -1,0 +1,145 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+.sole-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Navbar*/
+.header {
+    text-align: center;
+    padding: 60px 20px;
+    color: #ffffff;
+    font-family: 'Impact', sans-serif;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #8a2be2;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 8px 16px;
+    background: linear-gradient(45deg, #ff00ff, #8a2be2);
+    border-radius: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.navbar li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #8a2be2;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-content p {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    max-width: fit-content;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 12px;
+    margin: 12px auto;
+    padding: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 40px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+.showcase .left,
+.showcase .right {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+}
+.showcase h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+.showcase img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+h2 {
+    font-style: oblique;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    text-shadow: 0 0 6px #ff00ff, 0 0 12px #8a2be2;
+}
+
+footer {
+    background-color: rgba(97, 22, 116, 0.6);
+    color: gold;
+    padding: 12px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
