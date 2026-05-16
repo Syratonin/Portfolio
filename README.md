@@ -14,4 +14,9 @@
 - Footer
 - Favicon
 
+### Updates
+- Added recent examples of work
+- Added animations and form validation
+- Added contact form
+
 Github Link:https://github.com/Syratonin/Portfolio
